@@ -11,7 +11,7 @@ import SwiftUI
 struct ModelViewDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ChatListView(chatService: MockChatService())
         }
     }
 }
